@@ -10,6 +10,10 @@ outputs:
   result:
     description: The result from the kubectl command being run
 
+branding:
+  icon: life-buoy
+  color: blue
+
 runs:
   using: docker
   image: action/Dockerfile
