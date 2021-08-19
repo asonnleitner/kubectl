@@ -1,0 +1,17 @@
+name: kubect - command-line tool
+description: The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters.
+
+inputs:
+  command:
+    description: The command which should be run
+    required: true
+
+outputs:
+  result:
+    description: The result from the kubectl command being run
+
+runs:
+  using: docker
+  image: action/Dockerfile
+  args:
+    - ${{ inputs.command }}

@@ -1,2 +1,5 @@
+action/
 Dockerfile
 .git
+README.md
+action.yaml
