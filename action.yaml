@@ -1,4 +1,4 @@
-name: kubect - command-line tool
+name: kubectl - command-line tool
 description: The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters.
 
 inputs:
