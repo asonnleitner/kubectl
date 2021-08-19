@@ -1,3 +1,3 @@
 # kubectl
 
-kubectl utility docker image
+kubectl command-line tool docker image
